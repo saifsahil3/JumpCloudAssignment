@@ -10,7 +10,8 @@ Steps to reproduce:
 4. Validate the value by decrypting the response and comparing with value in step 2
 Expected: Both values should be same
 Actual: Both values dont match
-**#Bug2:**
+
+**#Bug2**
 Failed POST requests to /hash are being counted in stats in total number of requests
 Steps to reproduce:
 1. Start the hash app
