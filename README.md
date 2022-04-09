@@ -28,6 +28,10 @@ NOTE: The above bug is based on assumption that invalid POST requests to /hash s
 
 **AUTOMATION**
 Automation is based on Postman. Import attached json files in Postman.
+
+Configuration:
+Update TD Environment values for 'Password' and 'PORT' to desired values
+
 How to Execute:
 1. Click on Runner in Postman. THis opens a Collection Runner
 2. Select HashApp from collections
