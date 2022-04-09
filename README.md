@@ -8,6 +8,7 @@ Steps to reproduce:
 2. Create a password hash using POST to /hash. eg: "angryMonkey"
 3. Get the encrypted value using GET request to /hash
 4. Validate the value by decrypting the response and comparing with value in step 2
+
 Expected: Both values should be same
 Actual: Both values dont match
 
@@ -17,6 +18,7 @@ Steps to reproduce:
 1. Start the hash app
 2. Send POST request to /hash with blank body
 3. Get total requests count using GET /stats 
+
 Expected: Total number of requests should be 0
 Actual:  Total number of requests should be 0
 NOTE: The above bug is based on assumption that invalid POST requests to /hash should not be counted
