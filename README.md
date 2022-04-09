@@ -10,6 +10,7 @@ Steps to reproduce:
 4. Validate the value by decrypting the response and comparing with value in step 2
 
 Expected: Both values should be same
+
 Actual: Both values dont match
 
 **#Bug2**
@@ -20,7 +21,9 @@ Steps to reproduce:
 3. Get total requests count using GET /stats 
 
 Expected: Total number of requests should be 0
+
 Actual:  Total number of requests should be 0
+
 NOTE: The above bug is based on assumption that invalid POST requests to /hash should not be counted
 
 **AUTOMATION**
